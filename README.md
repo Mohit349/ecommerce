@@ -8,7 +8,7 @@
     *       - application/json
     *     query parameters:
     *      - name: queryString to search product by name.For example:-api/v1/list?name=Redmi
-    *        filters: it takes array of json which includes filters like Storage,RAM,Color.For example:-api/v1/list/?filters=[{Storage:"64GB,128GB"}]
+    *        filters: it takes array of json which includes filters like Storage,RAM,Color.For example:-api/v1/list/?filters=[{"Storage":"64GB,128GB"}]
     *        
     *     responses:
     *       200:
